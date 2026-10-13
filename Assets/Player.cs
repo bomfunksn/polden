@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     [Header("Movement details")]
     public float moveSpeed;
     public float jumpForce = 5; 
+    [SerializeField] private float acceleration = 60;
+    [SerializeField] private float deceleration = 80;
 
     [Range(0,1)]
     public float inAirMoveMultiplier = .7f;
@@ -72,6 +74,19 @@ public class Player : MonoBehaviour
     {
         rb.linearVelocity = new Vector2 (xVelocity, yVelocity);
         HandleFlip(xVelocity); 
+    }
+
+    public void MoveTowardsVelocityX(float targetX)
+    {
+        float rate;
+
+        if (targetX == 0)
+            rate = deceleration;  
+        else
+            rate = acceleration;
+
+        float newX = Mathf.MoveTowards(rb.linearVelocity.x, targetX, rate * Time.deltaTime);
+        SetVelocity(newX, rb.linearVelocity.y);
     }
 
     private void HandleFlip(float xVelocity)

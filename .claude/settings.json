@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Read(**/*.png)",
+      "Read(**/*.jpg)",
+      "Read(**/*.jpeg)",
+      "Read(**/*.gif)",
+      "Read(**/*.webp)",
+      "Read(**/*.bmp)",
+      "Read(**/*.tga)",
+      "Read(**/*.tif)",
+      "Read(**/*.tiff)",
+      "Read(**/*.psd)",
+      "Read(**/*.psb)",
+      "Read(**/*.exr)",
+      "Read(**/*.hdr)",
+      "Read(**/*.aseprite)",
+      "Read(**/*.ase)",
+      "Read(/Library/**)",
+      "Read(/Temp/**)",
+      "Read(/Obj/**)",
+      "Read(/Logs/**)",
+      "Read(/UserSettings/**)"
+	  "Read(**/*.png.meta)"
+	  "Read(**/*.psd.meta)"
+    ]
+  }
+}

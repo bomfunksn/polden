@@ -38,8 +38,26 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Sky
+    uniqueID: 25565577
+    locked: 0
+  - name: Forest
+    uniqueID: 642995420
+    locked: 0
+  - name: FieldFar
+    uniqueID: 538293936
+    locked: 0
+  - name: Tree
+    uniqueID: 628796501
+    locked: 0
+  - name: WheatMid
+    uniqueID: 2064934324
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 501998133
     locked: 0
   m_RenderingLayers:
   - Default

@@ -1,21 +1,21 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26300) Professional' Language: 'en' Physical Memory: 31830 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Xpeh" at "2026-10-13T09:11:16.6827442Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Xpeh" at "2026-10-12T13:05:29.3014304Z"
-Date: 2026-10-12T13:05:29Z
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17536, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+Date: 2026-10-13T09:11:16Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 37996, path: "D:/Unity/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.3+d7ffd15
-  Session Id:              b41fd486e4374b47951a6e020046bbbf
-  Correlation Id:          2c7fc1859106bb933843a5a6d8476742
-  External correlation Id: 6549556137565713163
+  Session Id:              ad2fa76808524df7b4681b6192eb1644
+  Correlation Id:          eb9cdadf8884c6f1282c9350d0b0588f
+  External correlation Id: 8463209480574367533
   Machine Id:              lidCb0Fx98F8Kk9fkOygbs1MDQQ=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Xpeh" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Xpeh-notifications" at "2026-10-12T13:05:29.3303798Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Xpeh-notifications" at "2026-10-13T09:11:16.7159101Z"
 [Licensing::Module] Licensing Background thread has ended after 0.03s
 
 COMMAND LINE ARGUMENTS:
@@ -30,7 +30,7 @@ D:/Unity/projects/polden/polden'
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52575
+53484
 -licensingIpc
 LicenseClient-Xpeh
 -job-worker-count
@@ -78,14 +78,12 @@ D:/Unity/projects/polden/polden'
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [29560]  Target information:
+Player connection [4748]  Target information:
 
-Player connection [29560]  * "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 1270712778 [EditorId] 1270712778 [Version] 1048832 [Id] WindowsEditor(7,PeKarnya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4748]  * "[IP] 192.168.1.65 [Port] 0 [Flags] 2 [Guid] 2036190534 [EditorId] 2036190534 [Version] 1048832 [Id] WindowsEditor(7,PeKarnya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29560]  * "[IP] 192.168.104.171 [Port] 0 [Flags] 2 [Guid] 1270712778 [EditorId] 1270712778 [Version] 1048832 [Id] WindowsEditor(7,PeKarnya) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [29560] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29560] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4748] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4748] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -97,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Resources/UnitySubsystems
@@ -113,44 +111,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001131 seconds.
-- Loaded All Assemblies, in  0.290 seconds
+Registered in 0.001545 seconds.
+- Loaded All Assemblies, in  0.329 seconds
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.290 seconds
-Domain Reload Profiling: 578ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 652ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (98ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (112ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (106ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (290ms)
+	FinalizeReload (326ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (265ms)
+		SetupLoadedEditorAssemblies (289ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (116ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -168,11 +166,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.587 seconds
+- Loaded All Assemblies, in  0.657 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -184,92 +182,144 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.581 seconds
-Domain Reload Profiling: 1166ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.658 seconds
+Domain Reload Profiling: 1311ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (386ms)
-		LoadAssemblies (253ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (130ms)
-			BuildScriptInfoCaches (52ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (582ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (658ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
+		SetupLoadedEditorAssemblies (541ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (279ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (317ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7311 unused Assets / (4.7 MB). Loaded Objects now: 8129.
-Memory consumption went from 152.1 MB to 147.4 MB.
-Total: 7.742600 ms (FindLiveObjects: 0.781800 ms CreateObjectMapping: 0.531300 ms MarkObjects: 4.610000 ms  DeleteObjects: 1.819000 ms)
+Unloading 7311 unused Assets / (3.7 MB). Loaded Objects now: 8129.
+Memory consumption went from 152.3 MB to 148.5 MB.
+Total: 7.947100 ms (FindLiveObjects: 0.899800 ms CreateObjectMapping: 0.458100 ms MarkObjects: 4.940300 ms  DeleteObjects: 1.648200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 327269.588487 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cb5721d5fc115ce1471aafcbb78fe9f') in 0.0386722 seconds
+  Time since last request: 399618.795090 seconds.
+  path: Assets/Graphics/Player/Animation/idle
+  artifactKey: Guid(f1e960c26a6b3864c8fc84c57ce4a2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle using Guid(f1e960c26a6b3864c8fc84c57ce4a2bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35532a16df6af5ec8ff26fc5b40a32a5') in 0.0393513 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.132592 seconds.
+  path: Assets/Animation/playerMove.anim
+  artifactKey: Guid(04f8f96aeed50b44ea8a2b1cac9c762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/playerMove.anim using Guid(04f8f96aeed50b44ea8a2b1cac9c762c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dec38fbf6ac570fd755c9570d55d78e') in 0.0130094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.336952 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-6 2.png
+  artifactKey: Guid(48be3f4bf759b1d4f9ef12435a88f107) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-6 2.png using Guid(48be3f4bf759b1d4f9ef12435a88f107) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8cc46ae4ca7a45a24f9e9e9630169d9') in 0.0778075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-8 2.png
+  artifactKey: Guid(f5f0c337882c5d040a73801fee6317ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-8 2.png using Guid(f5f0c337882c5d040a73801fee6317ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '526b8f0aa9c112c6be4f234a5a431022') in 0.0303427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-3 2.png
+  artifactKey: Guid(509c1d0a3594fa447b88f4f3230214f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-3 2.png using Guid(509c1d0a3594fa447b88f4f3230214f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82f3e3b27d3afd33091ced9cb9985124') in 0.0127209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-4 2.png
+  artifactKey: Guid(2dbb2edf35002ae45ada5c236c09101a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-4 2.png using Guid(2dbb2edf35002ae45ada5c236c09101a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71bc713944c0d33ca9bf9cf71a36bcba') in 0.0099925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-9 2.png
+  artifactKey: Guid(cdbea13988a08fc40bf746020f409470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-9 2.png using Guid(cdbea13988a08fc40bf746020f409470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88a70932e6cdf4654dd3fa56a340fa6b') in 0.0121247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Animation/GrassWind.mat
-  artifactKey: Guid(42e92d0fb46601e4f8d7a128f90ed58c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Animation/GrassWind.mat using Guid(42e92d0fb46601e4f8d7a128f90ed58c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e31e84236f5534af0eaa92744af295ae') in 0.036029 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-1 2.png
+  artifactKey: Guid(179f97ba28a4fce49bd72bde192b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-1 2.png using Guid(179f97ba28a4fce49bd72bde192b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ecd4e9cfa6deb08538f59e30df079b') in 0.0460998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.037689 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afdff4c3a2fdaa6f8b2ca806ac4aa93d') in 0.0004096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 2.126979 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-9 2.png
+  artifactKey: Guid(cdbea13988a08fc40bf746020f409470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-9 2.png using Guid(cdbea13988a08fc40bf746020f409470) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e68e96873cd3f45024f066da340226de') in 0.0145216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.660332 seconds.
-  path: Assets/EntityState.cs
-  artifactKey: Guid(53c0059eb39a0e04daf9e5e8079167df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EntityState.cs using Guid(53c0059eb39a0e04daf9e5e8079167df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76eeeb93a764cfa31d0b3faa221dd25a') in 0.0003692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 16.970335 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-2 2.png
+  artifactKey: Guid(904c92bd039127d499f883ffc2bd7ca3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-2 2.png using Guid(904c92bd039127d499f883ffc2bd7ca3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31f92bb7c517a250568c10999c5a26e7') in 0.0133613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.722090 seconds.
-  path: Assets/Player.cs
-  artifactKey: Guid(d1ee517e517c25345b462bea6da22ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player.cs using Guid(d1ee517e517c25345b462bea6da22ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da14509224e4a5ea6c71f7852248644c') in 0.000342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-3 2.png
+  artifactKey: Guid(509c1d0a3594fa447b88f4f3230214f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-3 2.png using Guid(509c1d0a3594fa447b88f4f3230214f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd59b0dcf302bae417003172d706025e') in 0.0117989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1048.046190 seconds.
-  path: Assets/CLAUDE.md
-  artifactKey: Guid(163575315511e184d8fd3b25916ca6fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/CLAUDE.md using Guid(163575315511e184d8fd3b25916ca6fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '583aaa38bb1b735d457cb6132b1bc21e') in 0.0071562 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000013 seconds.
+  path: Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-9 2.png
+  artifactKey: Guid(cdbea13988a08fc40bf746020f409470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Graphics/Player/Animation/idle/Иллюстрация_без_названия-9 2.png using Guid(cdbea13988a08fc40bf746020f409470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e1d7b4771d198dbdf2789bc4e02b292d') in 0.0105659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 03ad38f6c8d644e44adffc226abcc8a7
+guid: 468563aee74046b40bd25a5423e0cb6f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8610236464671606721
-    second: photo_2026-01-24_17-03-19_0
+      213: -7566285228162974936
+    second: field_fin_0
+  - first:
+      213: -2705799803276155891
+    second: field_fin_1
+  - first:
+      213: -2352776800149140231
+    second: field_fin_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +52,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -72,7 +78,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -100,23 +106,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: photo_2026-01-24_17-03-19_0
+      name: field_fin_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1253
-        height: 948
+        width: 2554
+        height: 703
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c7cdd41274bd7770800000000000000
-      internalID: 8610236464671606721
+      spriteID: 82b7f024ca72ff690800000000000000
+      internalID: -7566285228162974936
       vertices: []
       indices: 
       edges: []
@@ -125,7 +131,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 617719f86b234074b9c0f62a43f14351
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +141,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      photo_2026-01-24_17-03-19_0: 8610236464671606721
+      field_fin_0: -7566285228162974936
+      field_fin_1: -2705799803276155891
+      field_fin_2: -2352776800149140231
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

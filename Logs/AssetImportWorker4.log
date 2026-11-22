@@ -1,0 +1,19 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32492 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-o_grunina" at "2026-11-22T12:13:54.6773729Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-22T12:13:54Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 34668, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              27bb70752134411e826c16f7593cae82
+  Correlation Id:          b20aecdaa713497ef48958cfb358e875
+  External correlation Id: 614310509911020290
+  Machine Id:              hNbPSSlWET9MpmvE9v4XtksAl8Y=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-o_grunina" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-o_grunina-notifications" at "2026-11-22T12:13:54.7958604Z"
+[Licensing::Module] Licensing Background thread has ended after 0.12s

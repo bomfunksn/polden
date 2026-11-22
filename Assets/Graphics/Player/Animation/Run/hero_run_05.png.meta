@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 968029e090dd21941b505a7c64c4e33c
+guid: 4091f5b293389a64c99c968501395bba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5361075058595596617
-    second: "\u0411\u0435\u0433_\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_-3
+      213: -379274293090517199
+    second: "\u0411\u0435\u0433_\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_-5
       2_0"
   externalObjects: {}
   serializedVersion: 13
@@ -50,11 +50,11 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.047709923}
+  spritePixelsToUnits: 315
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -101,14 +101,14 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u0411\u0435\u0433_\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_-3
+      name: "\u0411\u0435\u0433_\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_-5
         2_0"
       rect:
         serializedVersion: 2
-        x: 402
-        y: 74
-        width: 791
-        height: 1189
+        x: 301
+        y: 161
+        width: 896
+        height: 1108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +117,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7b6f33e63a2a995b0800000000000000
-      internalID: -5361075058595596617
+      spriteID: 13ff6e73a0c8cbaf0800000000000000
+      internalID: -379274293090517199
       vertices: []
       indices: 
       edges: []
@@ -137,7 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\u0411\u0435\u0433_\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_-3 2_0": -5361075058595596617
+      "\u0411\u0435\u0433_\u0421\u043F\u043E\u043A\u043E\u0439\u043D\u044B\u0439_-5 2_0": -379274293090517199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
